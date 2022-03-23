@@ -121,7 +121,8 @@ h1, h2, h3, h4, h5, h6 {
       padding: 12px 30px;
       font-size: 12px;
       text-transform: uppercase;
-      color: #fff; }
+      color: #fff;
+      border: none; }
 
 .home-about .home-image-bg {
   margin: 0 5% 0 auto; }
@@ -448,6 +449,76 @@ h1, h2, h3, h4, h5, h6 {
     .follow-grid div img {
       width: 100%;
       height: 150px; }
+
+.testimony {
+  text-align: center;
+  margin: 50em 5% 40px; }
+  .testimony-text p {
+    font-size: 24px; }
+  .testimony-sign {
+    margin: 30px 0;
+    font-size: 19px; }
+
+.services-section .services {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5%; }
+  .services-section .services-image {
+    position: relative;
+    display: flex;
+    height: 350px; }
+    .services-section .services-image-bg {
+      z-index: 2;
+      position: absolute;
+      width: 85%;
+      background-color: #550909;
+      height: 200px; }
+    .services-section .services-image-img {
+      z-index: 3;
+      position: absolute;
+      height: 350px;
+      width: 90%; }
+      .services-section .services-image-img img {
+        width: 100%;
+        height: 100%;
+        transform: translate(15px, 15px); }
+  .services-section .services-text {
+    margin: 40px 10%; }
+    .services-section .services-text h2 {
+      font-size: 33px;
+      margin: 15px 0; }
+    .services-section .services-text p {
+      font-size: 19px;
+      display: block;
+      margin: 25px 0; }
+    .services-section .services-text span {
+      font-size: 19px;
+      display: block;
+      margin: 25px 0; }
+    .services-section .services-text button {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 15px 0;
+      padding: 12px 30px;
+      border: none;
+      background-color: #550909; }
+
+.services-section .services:first-child {
+  background-color: #e6ddd6; }
+
+.services-section .service-two .services-image-bg {
+  bottom: -15px;
+  right: 0; }
+
+.services-section .service-two .services-image-img img {
+  transform: translate(15px, 0); }
+
+.services-section .services:last-child .services-image-bg {
+  bottom: -15px; }
+
+.services-section .services:last-child .services-image-img img {
+  transform: translate(15px, 0); }
 
 @media screen and (min-width: 768px) {
   .menu {
@@ -790,7 +861,29 @@ h1, h2, h3, h4, h5, h6 {
       gap: 15px; }
       .follow-grid div img {
         width: 100%;
-        height: 150px; } }
+        height: 150px; }
+  .testimony {
+    text-align: center;
+    margin: 50em 10% 60px; }
+    .testimony-text p {
+      font-size: 34px; }
+    .testimony-sign {
+      margin: 30px 0;
+      font-size: 19px; }
+  .services-section .services {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 1fr; }
+    .services-section .services-image {
+      margin-top: 80px; }
+  .services-section .service-two {
+    grid-template-columns: 55% 45%; }
+    .services-section .service-two .services-image {
+      grid-column: 2/3;
+      grid-row: 1/2; }
+    .services-section .service-two .services-text {
+      grid-column: 1/2;
+      grid-row: 1/2; } }
 
 @media screen and (min-width: 992px) {
   .menu {
@@ -1152,4 +1245,27 @@ h1, h2, h3, h4, h5, h6 {
       gap: 15px; }
       .follow-grid div img {
         width: 100%;
-        height: 250px; } }
+        height: 250px; }
+  .testimony {
+    text-align: center;
+    margin: 50em 15% 120px; }
+    .testimony-text p {
+      font-size: 34px; }
+    .testimony-sign {
+      margin: 50px 0;
+      font-size: 22px; }
+  .services-section .services-image {
+    margin-top: 40px;
+    height: 450px;
+    width: 80%; }
+    .services-section .services-image-bg {
+      left: 10%;
+      height: 300px; }
+    .services-section .services-image-img {
+      left: 10%;
+      height: 450px; }
+  .services-section .services-text {
+    height: 450px; }
+  .services-section .service-two .services-image-bg {
+    left: auto;
+    right: -30px; } }

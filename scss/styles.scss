@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 12px;
             text-transform: uppercase;
             color: #fff;
+            border: none;
         }
     }
 }
@@ -580,6 +581,107 @@ h1, h2, h3, h4, h5, h6 {
             img {
                 width: 100%;
                 height: 150px;
+            }
+        }
+    }
+}
+
+//Service
+
+.testimony {
+    text-align: center;
+    margin: 50em 5% 40px;
+    &-text {
+        p {
+            font-size: 24px;
+        }
+    }
+    &-sign {
+        margin: 30px 0;
+        font-size: 19px;
+    }
+}
+
+.services-section {
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 5%;
+        &-image {
+            position: relative;
+            display: flex;
+            height: 350px;
+            &-bg {
+                z-index: 2;
+                position: absolute;
+                width: 85%;
+                background-color: rgb(85, 9, 9);
+                height: 200px;
+            }
+            &-img {
+                z-index: 3;
+                position: absolute;
+                height: 350px;
+                width: 90%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transform: translate(15px, 15px);
+                }
+            }
+        }
+        &-text {
+            margin: 40px 10%;
+            h2 {
+                font-size: 33px;
+                margin: 15px 0;
+            }
+            p {
+                font-size: 19px;
+                display: block;
+                margin: 25px 0;
+            }
+            span {
+                font-size: 19px;
+                display: block;
+                margin: 25px 0;
+            }
+            button {
+                font-size: 12px;
+                text-transform: uppercase;
+                color: #fff;
+                margin: 15px 0;
+                padding: 12px 30px;
+                border: none;
+                background-color: rgb(85, 9, 9);
+            }
+        }
+    }
+    .services:first-child {
+        background-color: #e6ddd6;
+    }
+    .service-two {
+        .services-image {
+            &-bg {
+                bottom: -15px;
+                right: 0;
+            }
+            &-img {
+                img {
+                    transform: translate(15px, 0);
+                }
+            }
+        }
+    }
+    .services:last-child {
+        .services-image {
+            &-bg {
+                bottom: -15px;
+            }
+            &-img {
+                img {
+                    transform: translate(15px, 0);
+                }
             }
         }
     }
@@ -1061,6 +1163,44 @@ h1, h2, h3, h4, h5, h6 {
                     width: 100%;
                     height: 150px;
                 }
+            }
+        }
+    }
+
+    //Service
+
+    .testimony {
+        text-align: center;
+        margin: 50em 10% 60px;
+        &-text {
+            p {
+                font-size: 34px;
+            }
+        }
+        &-sign {
+            margin: 30px 0;
+            font-size: 19px;
+        }
+    }
+
+    .services-section {
+        .services {
+            display: grid;
+            grid-template-columns: 45% 55%;
+            grid-template-rows: 1fr;
+            &-image {
+                margin-top: 80px;
+            }
+        }
+        .service-two {
+            grid-template-columns: 55% 45%;
+            .services-image {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            .services-text {
+                grid-column: 1/2;
+                grid-row: 1/2;
             }
         }
     }
@@ -1547,6 +1687,51 @@ h1, h2, h3, h4, h5, h6 {
                 img {
                     width: 100%;
                     height: 250px;
+                }
+            }
+        }
+    }
+
+    //Service
+
+    .testimony {
+        text-align: center;
+        margin: 50em 15% 120px;
+        &-text {
+            p {
+                font-size: 34px;
+            }
+        }
+        &-sign {
+            margin: 50px 0;
+            font-size: 22px;
+        }
+    }
+
+    .services-section {
+        .services {
+            &-image {
+                margin-top: 40px;
+                height: 450px;
+                width: 80%;
+                &-bg {
+                    left: 10%;
+                    height: 300px;
+                }
+                &-img {
+                    left: 10%;
+                    height: 450px;
+                }
+            }
+            &-text {
+                height: 450px;
+            }
+        }
+        .service-two {
+            .services-image {
+                &-bg {
+                    left: auto;
+                    right: -30px;
                 }
             }
         }
