@@ -520,6 +520,27 @@ h1, h2, h3, h4, h5, h6 {
 .services-section .services:last-child .services-image-img img {
   transform: translate(15px, 0); }
 
+.faq {
+  background-color: #e6ddd6;
+  padding-bottom: 60px; }
+  .faq-title {
+    padding: 50px 5%;
+    text-align: center; }
+    .faq-title h2 {
+      font-size: 32px; }
+  .faq-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px; }
+    .faq-grid-box {
+      margin: 20px 5%; }
+      .faq-grid-box-q {
+        font-size: 19px;
+        padding-bottom: 35px; }
+      .faq-grid-box-a {
+        font-size: 18px; }
+
 @media screen and (min-width: 768px) {
   .menu {
     height: 95vh; }
@@ -883,7 +904,26 @@ h1, h2, h3, h4, h5, h6 {
       grid-row: 1/2; }
     .services-section .service-two .services-text {
       grid-column: 1/2;
-      grid-row: 1/2; } }
+      grid-row: 1/2; }
+  .faq {
+    background-color: #e6ddd6;
+    padding-bottom: 60px; }
+    .faq-title {
+      padding: 50px 10%;
+      text-align: center; }
+      .faq-title h2 {
+        font-size: 38px; }
+    .faq-grid {
+      padding: 20px 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 20px; }
+      .faq-grid-box-q {
+        font-size: 19px;
+        padding-bottom: 35px; }
+      .faq-grid-box-a {
+        font-size: 18px; } }
 
 @media screen and (min-width: 992px) {
   .menu {
@@ -1268,4 +1308,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 450px; }
   .services-section .service-two .services-image-bg {
     left: auto;
-    right: -30px; } }
+    right: -30px; }
+  .faq-title h2 {
+    font-size: 50px; }
+  .faq-grid-box-q {
+    font-size: 24px; }
+  .faq-grid-box-a {
+    font-size: 22px; } }
