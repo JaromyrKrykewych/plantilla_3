@@ -450,6 +450,11 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       height: 150px; }
 
+.follow-contact {
+  padding: 0 5% 60px; }
+  .follow-contact .follow-title {
+    text-align: left; }
+
 .testimony {
   text-align: center;
   margin: 50em 5% 40px; }
@@ -540,6 +545,105 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 35px; }
       .faq-grid-box-a {
         font-size: 18px; }
+
+.contact-bg {
+  background-image: none;
+  height: 84px; }
+
+.contacting {
+  background-color: #e6ddd6;
+  display: flex;
+  flex-direction: column; }
+  .contacting-image {
+    position: relative;
+    width: 90%;
+    height: 350px; }
+    .contacting-image-bg {
+      position: absolute;
+      top: 50px;
+      left: 5%;
+      background-color: #550909;
+      width: 85%;
+      height: 200px; }
+    .contacting-image-img {
+      position: absolute;
+      top: 50px;
+      left: 5%;
+      width: 90%;
+      height: 350px;
+      transform: translate(10px, 10px); }
+      .contacting-image-img img {
+        width: 100%;
+        height: 100%; }
+  .contacting-text {
+    margin: 100px 5% 50px; }
+    .contacting-text-about h2 {
+      font-size: 24px;
+      padding: 10px 0 20px; }
+    .contacting-text-about p {
+      font-size: 19px;
+      padding: 10px 0 20px;
+      line-height: 26px; }
+    .contacting-text-faq a {
+      padding: 15px 0 15px;
+      text-decoration: none; }
+      .contacting-text-faq a p {
+        padding: 15px 0;
+        font-style: italic;
+        color: #000;
+        width: fit-content;
+        padding-bottom: 0.05em;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(0, 0, 0, 0.3); }
+    .contacting-text-form {
+      padding: 30px 0; }
+      .contacting-text-form .form-group-name {
+        display: flex;
+        flex-direction: column; }
+        .contacting-text-form .form-group-name label {
+          padding: 15px 0;
+          font-size: 19px; }
+        .contacting-text-form .form-group-name .input-group {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr;
+          gap: 10px; }
+          .contacting-text-form .form-group-name .input-group .input-item {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 15px; }
+            .contacting-text-form .form-group-name .input-group .input-item input {
+              width: 100%;
+              border: none;
+              height: 42px; }
+            .contacting-text-form .form-group-name .input-group .input-item span {
+              font-size: 14px; }
+      .contacting-text-form .form-group-email, .contacting-text-form .form-group-subject, .contacting-text-form .form-group-message {
+        margin-bottom: 20px; }
+        .contacting-text-form .form-group-email label, .contacting-text-form .form-group-subject label, .contacting-text-form .form-group-message label {
+          font-size: 19px;
+          padding: 15px 0; }
+        .contacting-text-form .form-group-email input, .contacting-text-form .form-group-subject input, .contacting-text-form .form-group-message input {
+          width: 100%;
+          height: 42px;
+          border: none;
+          margin: 15px 0; }
+        .contacting-text-form .form-group-email textarea, .contacting-text-form .form-group-subject textarea, .contacting-text-form .form-group-message textarea {
+          width: 100%;
+          height: 100px;
+          border: none;
+          margin: 15px 0;
+          resize: vertical; }
+      .contacting-text-form .form-button button {
+        background-color: #550909;
+        padding: 14px 35px;
+        font-size: 14px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.3em; }
 
 @media screen and (min-width: 768px) {
   .menu {
@@ -883,6 +987,9 @@ h1, h2, h3, h4, h5, h6 {
       .follow-grid div img {
         width: 100%;
         height: 150px; }
+  .follow-contact {
+    margin-top: 0;
+    padding: 40px 10% 60px; }
   .testimony {
     text-align: center;
     margin: 50em 10% 60px; }
@@ -923,7 +1030,105 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 19px;
         padding-bottom: 35px; }
       .faq-grid-box-a {
-        font-size: 18px; } }
+        font-size: 18px; }
+  .contact-bg {
+    background-image: none;
+    height: 124px; }
+  .contacting {
+    padding: 0 10%;
+    background-color: #e6ddd6;
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .contacting-image {
+      position: relative;
+      width: 90%;
+      height: 350px; }
+      .contacting-image-bg {
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        background-color: #550909;
+        width: 85%;
+        height: 200px; }
+      .contacting-image-img {
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        width: 90%;
+        height: 350px;
+        transform: translate(10px, 10px); }
+        .contacting-image-img img {
+          width: 100%;
+          height: 100%; }
+    .contacting-text {
+      margin: 100px 5% 50px; }
+      .contacting-text-about h2 {
+        font-size: 24px;
+        padding: 10px 0 20px; }
+      .contacting-text-about p {
+        font-size: 19px;
+        padding: 10px 0 20px;
+        line-height: 26px; }
+      .contacting-text-faq a {
+        padding: 15px 0 15px;
+        text-decoration: none; }
+        .contacting-text-faq a p {
+          padding: 15px 0;
+          font-style: italic;
+          color: #000;
+          width: fit-content;
+          padding-bottom: 0.05em;
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: rgba(0, 0, 0, 0.3); }
+      .contacting-text-form {
+        padding: 30px 0; }
+        .contacting-text-form .form-group-name {
+          display: flex;
+          flex-direction: column; }
+          .contacting-text-form .form-group-name label {
+            padding: 15px 0;
+            font-size: 19px; }
+          .contacting-text-form .form-group-name .input-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px; }
+            .contacting-text-form .form-group-name .input-group .input-item {
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 1fr 1fr;
+              gap: 15px; }
+              .contacting-text-form .form-group-name .input-group .input-item input {
+                width: 100%;
+                border: none;
+                height: 42px; }
+              .contacting-text-form .form-group-name .input-group .input-item span {
+                font-size: 14px; }
+        .contacting-text-form .form-group-email, .contacting-text-form .form-group-subject, .contacting-text-form .form-group-message {
+          margin-bottom: 20px; }
+          .contacting-text-form .form-group-email label, .contacting-text-form .form-group-subject label, .contacting-text-form .form-group-message label {
+            font-size: 19px;
+            padding: 15px 0; }
+          .contacting-text-form .form-group-email input, .contacting-text-form .form-group-subject input, .contacting-text-form .form-group-message input {
+            width: 100%;
+            height: 42px;
+            border: none;
+            margin: 15px 0; }
+          .contacting-text-form .form-group-email textarea, .contacting-text-form .form-group-subject textarea, .contacting-text-form .form-group-message textarea {
+            width: 100%;
+            height: 100px;
+            border: none;
+            margin: 15px 0;
+            resize: vertical; }
+        .contacting-text-form .form-button button {
+          background-color: #550909;
+          padding: 14px 35px;
+          font-size: 14px;
+          border: none;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 0.3em; } }
 
 @media screen and (min-width: 992px) {
   .menu {
@@ -1286,6 +1491,9 @@ h1, h2, h3, h4, h5, h6 {
       .follow-grid div img {
         width: 100%;
         height: 250px; }
+  .follow-contact {
+    margin-top: 0;
+    padding: 40px 10% 60px; }
   .testimony {
     text-align: center;
     margin: 50em 15% 120px; }
@@ -1314,4 +1522,102 @@ h1, h2, h3, h4, h5, h6 {
   .faq-grid-box-q {
     font-size: 24px; }
   .faq-grid-box-a {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .contact-bg {
+    background-color: #000;
+    height: 184px; }
+  .contacting {
+    padding: 0 10%;
+    background-color: #e6ddd6;
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .contacting-image {
+      position: relative;
+      width: 90%;
+      height: 350px; }
+      .contacting-image-bg {
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        background-color: #550909;
+        width: 85%;
+        height: 200px; }
+      .contacting-image-img {
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        width: 90%;
+        height: 350px;
+        transform: translate(10px, 10px); }
+        .contacting-image-img img {
+          width: 100%;
+          height: 100%; }
+    .contacting-text {
+      margin: 100px 5% 50px; }
+      .contacting-text-about h2 {
+        font-size: 24px;
+        padding: 10px 0 20px; }
+      .contacting-text-about p {
+        font-size: 19px;
+        padding: 10px 0 20px;
+        line-height: 26px; }
+      .contacting-text-faq a {
+        padding: 15px 0 15px;
+        text-decoration: none; }
+        .contacting-text-faq a p {
+          padding: 15px 0;
+          font-style: italic;
+          color: #000;
+          width: fit-content;
+          padding-bottom: 0.05em;
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: rgba(0, 0, 0, 0.3); }
+      .contacting-text-form {
+        padding: 30px 0; }
+        .contacting-text-form .form-group-name {
+          display: flex;
+          flex-direction: column; }
+          .contacting-text-form .form-group-name label {
+            padding: 15px 0;
+            font-size: 19px; }
+          .contacting-text-form .form-group-name .input-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px; }
+            .contacting-text-form .form-group-name .input-group .input-item {
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 1fr 1fr;
+              gap: 15px; }
+              .contacting-text-form .form-group-name .input-group .input-item input {
+                width: 100%;
+                border: none;
+                height: 42px; }
+              .contacting-text-form .form-group-name .input-group .input-item span {
+                font-size: 14px; }
+        .contacting-text-form .form-group-email, .contacting-text-form .form-group-subject, .contacting-text-form .form-group-message {
+          margin-bottom: 20px; }
+          .contacting-text-form .form-group-email label, .contacting-text-form .form-group-subject label, .contacting-text-form .form-group-message label {
+            font-size: 19px;
+            padding: 15px 0; }
+          .contacting-text-form .form-group-email input, .contacting-text-form .form-group-subject input, .contacting-text-form .form-group-message input {
+            width: 100%;
+            height: 42px;
+            border: none;
+            margin: 15px 0; }
+          .contacting-text-form .form-group-email textarea, .contacting-text-form .form-group-subject textarea, .contacting-text-form .form-group-message textarea {
+            width: 100%;
+            height: 100px;
+            border: none;
+            margin: 15px 0;
+            resize: vertical; }
+        .contacting-text-form .form-button button {
+          background-color: #550909;
+          padding: 14px 35px;
+          font-size: 14px;
+          border: none;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 0.3em; } }
