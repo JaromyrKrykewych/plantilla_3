@@ -593,6 +593,44 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+//Proyects
+
+.section-proyects {
+    &-title {
+        padding: 50px 5%;
+        h2 {
+            font-size: 24px;
+        }
+    }
+    &-grid {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        .proyect-item {
+            width: 90%;
+            margin: 15px auto;
+            &-img {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            &-text {
+                text-align: center;
+                margin: 30px 0;
+                h3 {
+                    font-style: 22px;
+                    padding: 15px 0;
+                }
+                p {
+                    font-size: 14px;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
 //Service
 
 .testimony {
