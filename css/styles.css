@@ -455,31 +455,33 @@ h1, h2, h3, h4, h5, h6 {
   .follow-contact .follow-title {
     text-align: left; }
 
-.section-proyects-title {
-  padding: 50px 5%; }
-  .section-proyects-title h2 {
-    font-size: 24px; }
-
-.section-proyects-grid {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column; }
-  .section-proyects-grid .proyect-item {
-    width: 90%;
-    margin: 15px auto; }
-    .section-proyects-grid .proyect-item-img {
-      width: 100%; }
-      .section-proyects-grid .proyect-item-img img {
+.section-proyects {
+  background-color: #e6ddd6;
+  padding: 30px 0; }
+  .section-proyects-title {
+    padding: 50px 5% 0; }
+    .section-proyects-title h2 {
+      font-size: 24px; }
+  .section-proyects-grid {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; }
+    .section-proyects-grid .proyect-item {
+      width: 90%;
+      margin: 15px auto; }
+      .section-proyects-grid .proyect-item-img {
         width: 100%; }
-    .section-proyects-grid .proyect-item-text {
-      text-align: center;
-      margin: 30px 0; }
-      .section-proyects-grid .proyect-item-text h3 {
-        font-style: 22px;
-        padding: 15px 0; }
-      .section-proyects-grid .proyect-item-text p {
-        font-size: 14px;
-        padding: 10px 0; }
+        .section-proyects-grid .proyect-item-img img {
+          width: 100%; }
+      .section-proyects-grid .proyect-item-text {
+        text-align: center;
+        margin: 30px 0; }
+        .section-proyects-grid .proyect-item-text h3 {
+          font-style: 22px;
+          padding: 15px 0; }
+        .section-proyects-grid .proyect-item-text p {
+          font-size: 14px;
+          padding: 10px 0; }
 
 .testimony {
   text-align: center;
@@ -1016,6 +1018,35 @@ h1, h2, h3, h4, h5, h6 {
   .follow-contact {
     margin-top: 0;
     padding: 40px 10% 60px; }
+  .section-proyects {
+    background-color: #e6ddd6;
+    padding: 30px 0; }
+    .section-proyects-title {
+      padding: 50px 5% 0; }
+      .section-proyects-title h2 {
+        font-size: 24px; }
+    .section-proyects-grid {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      padding: 0 30px; }
+      .section-proyects-grid .proyect-item {
+        width: 90%;
+        margin: 15px auto;
+        padding: 0 15px; }
+        .section-proyects-grid .proyect-item-img {
+          width: 100%; }
+          .section-proyects-grid .proyect-item-img img {
+            width: 100%; }
+        .section-proyects-grid .proyect-item-text {
+          text-align: center;
+          margin: 30px 0; }
+          .section-proyects-grid .proyect-item-text h3 {
+            font-style: 22px;
+            padding: 15px 0; }
+          .section-proyects-grid .proyect-item-text p {
+            font-size: 14px;
+            padding: 10px 0; }
   .testimony {
     text-align: center;
     margin: 50em 10% 60px; }
@@ -1646,4 +1677,34 @@ h1, h2, h3, h4, h5, h6 {
           border: none;
           color: #fff;
           text-transform: uppercase;
-          letter-spacing: 0.3em; } }
+          letter-spacing: 0.3em; }
+  .section-proyects {
+    background-color: #e6ddd6;
+    padding: 30px 0; }
+    .section-proyects-title {
+      padding: 50px 5% 0; }
+      .section-proyects-title h2 {
+        font-size: 34px;
+        padding-right: 30%; }
+    .section-proyects-grid {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      padding: 0 30px; }
+      .section-proyects-grid .proyect-item {
+        width: 90%;
+        margin: 15px auto;
+        padding: 0 15px; }
+        .section-proyects-grid .proyect-item-img {
+          width: 100%; }
+          .section-proyects-grid .proyect-item-img img {
+            width: 100%; }
+        .section-proyects-grid .proyect-item-text {
+          text-align: center;
+          margin: 30px 0; }
+          .section-proyects-grid .proyect-item-text h3 {
+            font-style: 22px;
+            padding: 15px 0; }
+          .section-proyects-grid .proyect-item-text p {
+            font-size: 14px;
+            padding: 10px 0; } }
